@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl" xmlns:th="http://www.thymeleaf.org">
+<!--Ferre Van Hoof r0785026-->
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Personeelslid registreren</title>
+
+
+</head>
+<body>
+<div class="container">
+    <h1>Registratieformulier personeelslid</h1>
+    <form action="/4_WelkomPersoneelslid">
+        <div>
+            <label for="voornaam">Voornaam: <span class="reqstar">*</span></label>
+            <input type="text" name="voornaam" id="voornaam" required>
+        </div>
+        <div><label for="familienaam">Familienaam: <span class="reqstar">*</span></label>
+            <input type="text" name="familienaam" id="familienaam" required>
+        </div>
+        <div><label for="inDienstsinds">In dienst sinds (dd/MM/yyyy):<span class="reqstar">*</span></label>
+            <input type="text" name="inDienstsinds" id="inDienstsinds" placeholder="bv 01/01/2020" required>
+        </div>
+        <button type="submit" name="4_WelkomPersoneelslid" value="4_WelkomPersoneelslid">Registreer personeelslid</button>
+    </form>
+
+    <hr>
+
+    <footer><a href="/">Homepage</a></footer>
+</div>
+
+</body>
+</html>

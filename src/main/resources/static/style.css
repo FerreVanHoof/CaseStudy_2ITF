@@ -1,0 +1,48 @@
+/*voeg hier je zelfgekozen stylesheet toe*/
+/*Ferre Van Hoof r0785026*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Calibri, Geneva, sans-serif;
+    background-color: azure;
+}
+
+.container {
+    width: 1400px;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    border: 1px black solid;
+    box-shadow: 1px 1px 5px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p {
+    padding: 5px;
+}
+
+div {
+    padding-bottom: 5px;
+}
+
+.reqstar {
+    color: red;
+    padding-left: 2px;
+}
+
+hr {
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

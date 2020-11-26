@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--Ferre Van Hoof r0785026-->
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Klant registreren</title>
+
+</head>
+<body>
+<div class="container">
+    <h1>Registratieformulier klanten</h1>
+    <form action="/2_WelkomKlant">
+        <div>
+            <label for="voornaam">Voornaam: <span class="reqstar">*</span></label>
+            <input type="text" name="voornaam" id="voornaam" required>
+        </div>
+        <div><label for="familienaam">Familienaam: <span class="reqstar">*</span></label>
+            <input type="text" name="familienaam" id="familienaam" required>
+        </div>
+        <div><label for="geboortejaar">Geboortejaar: <span class="reqstar">*</span></label>
+            <input type="text" name="geboortejaar" id="geboortejaar" required>
+        </div>
+        <button type="submit" name="2_WelkomKlant" value="2_WelkomKlant">Ga door als klant zonder aanmaak klantennummer</button>
+    </form>
+
+    <hr>
+
+    <footer><a href="/">Homepage</a></footer>
+</div>
+
+
+
+</body>
+</html>
